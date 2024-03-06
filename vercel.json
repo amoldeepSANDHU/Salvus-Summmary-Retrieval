@@ -12,14 +12,7 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ],
-    "install": {
-      "include": ["package.json", "package-lock.json"]
-    },
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      }
-    }
+    ]
+ 
   }
   

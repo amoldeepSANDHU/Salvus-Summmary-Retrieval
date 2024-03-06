@@ -162,9 +162,9 @@ const text=req.body.argument2;
  
 
 
-// app.listen(3000,function(req,res){
-//   console.log("server is running on port 3000");
-// });
+app.listen(3000,function(req,res){
+  console.log("server is running on port 3000");
+});
 
 
 

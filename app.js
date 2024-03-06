@@ -13,20 +13,20 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 app.get("/",function(req,res){
- res.sendFile(__dirname+"/index.html");
+ res.sendFile("./index.html");
 });
 app.get("/index.html",function(req,res){
-    res.sendFile(__dirname+"/index.html");
+    res.sendFile("./index.html");
    });
 app.get("/signup.html",function(req,res){
-    res.sendFile(__dirname+"/signup.html");
+    res.sendFile("./signup.html");
    });
 
 app.get("/extractive.html",function(req,res){
-    res.sendFile(__dirname+"/extractive.html");
+    res.sendFile("./extractive.html");
    });
 app.get("/abstractive.html",function(req,res){
-    res.sendFile(__dirname+"/abstractive.html");
+    res.sendFile("./abstractive.html");
    });
   
 

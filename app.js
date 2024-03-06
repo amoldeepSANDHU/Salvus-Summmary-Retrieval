@@ -177,9 +177,7 @@ const text=req.body.argument2;
 
   
 
-app.listen(3000,function(req,res){
-    console.log("server is running on port 3000");
-});
+
 
 //5f3ff73b9ea5cf4bb5a67398b8c88430-us8
 // dc8aaa77a5

@@ -13,10 +13,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 app.get("/",function(req,res){
- res.sendFile("/index.html");
+ res.sendFile(__dirname+"/index.html");
 });
 app.get("/index.html",function(req,res){
-    res.sendFile("/index.html");
+    res.sendFile(__dirname+"/index.html");
    });
 app.get("/signup.html",function(req,res){
     res.sendFile(__dirname+"/signup.html");

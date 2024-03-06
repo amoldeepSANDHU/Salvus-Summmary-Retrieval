@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Unsuccesful</title>
+  <style>
+    body {
+      background-color: #f4f6f9;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    
+    .status-box {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      width: 750px;
+      height: 450px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      position: relative;
+    }
+    
+    .status-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #e74c3c;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .status-icon {
+      font-size: 60px;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .status-message {
+      font-size: 30px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .status-submessage {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .alternative-button {
+      background-color: #e74c3c;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .alternative-button:hover {
+      background-color: #e74c3c;
+    }
+    
+    .additional-info {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .footer {
+      font-size: 12px;
+      color: #999;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="status-box">
+      <div class="status-circle">
+        <span class="status-icon" style="color: #fff;">&#10005;</span>
+      </div>
+      <br>
+      <div class="status-message">
+        <p>Oops!</p>
+        <p>Your Sign-up was unsuccessful.</p>
+      </div>
+      <div class="status-submessage">
+        <p>Please check your information and try again.</p>
+      </div>
+      <div class="additional-info">
+        <p>For any assistance, please contact our team.</p>
+      </div>
+      <br>
+      <button class="alternative-button"  onclick="location.href='/signup.html'" style="background-color: #e74c3c;">Try Again</button>
+    </div>
+    <div class="footer">
+      &copy; 2023 SSR. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

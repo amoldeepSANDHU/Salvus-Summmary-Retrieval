@@ -13,10 +13,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 app.get("/",function(req,res){
- res.sendFile(__dirname+"/index.html");
+ res.sendFile("/index.html");
 });
 app.get("/index.html",function(req,res){
-    res.sendFile(__dirname+"/index.html");
+    res.sendFile("/index.html");
    });
 app.get("/signup.html",function(req,res){
     res.sendFile(__dirname+"/signup.html");
@@ -162,7 +162,9 @@ const text=req.body.argument2;
  
 
 
-
+// app.listen(3000,function(req,res){
+//   console.log("server is running on port 3000");
+// });
 
 
 
